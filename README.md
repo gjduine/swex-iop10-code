@@ -2,7 +2,7 @@
 
 Analysis and plotting scripts, and WRF/WPS namelists, for:
 
-> Duine, G.-J., et al. (in review). Lee-Slope Jet, Hydraulic Jump and Rotor Characteristics from Observations and Large-Eddy Simulations during SWEX IOP 10. Journal of Geophysical Research: Atmospheres.
+> Duine, G.-J., et al. submission stage. Lee-Slope Jet, Hydraulic Jump and Rotor Characteristics from Observations and Large-Eddy Simulations during SWEX IOP 10. Journal of Geophysical Research: Atmospheres.
 
 The paper analyzes Intensive Observational Period 10 (IOP 10, 12–13 May 2022) of the
 Sundowner Winds Experiment (SWEX) over the Santa Ynez Mountains, Santa Barbara, California.
