@@ -90,7 +90,7 @@ If you use this code, please cite the paper above and this archive:
 
 ## License
 
-*[e.g. MIT — see `LICENSE`]*
+MIT License, see LICENSE
 
 ## Contact
 
