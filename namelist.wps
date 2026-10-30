@@ -1,0 +1,38 @@
+&share
+ wrf_core = 'ARW',
+ max_dom  = 2,
+ start_date = '2022-05-12_11:00:00','2022-05-12_11:00:00',
+ end_date   = '2022-05-13_17:00:00','2022-05-13_17:00:00',
+ interval_seconds = 3600
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         =  1,       1,
+ parent_grid_ratio =  1,       9,
+ i_parent_start    =  1,     136,
+ j_parent_start    =  1,      94,
+ e_we              =  259,   298,
+ e_sn              =  235,   334,
+ geog_data_res     = 'default','sba_13s+nlcd2011_30m',
+ dx = 1000,
+ dy = 1000,
+ map_proj = 'mercator',
+ ref_lat   =  34.51161,
+ ref_lon   =-119.9192,
+ truelat1  =  30.0,
+ truelat2  =  60.0,
+ stand_lon = 0.0
+ geog_data_path = '/home/cjones/wrf/geog'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = '/glade/work/gduine/wrf/ungrib/era5/ERA5_prs',
+/
+
+&metgrid
+ fg_name = '/glade/work/gduine/wrf/ungrib/era5/ERA5_prs','/glade/work/gduine/wrf/ungrib/era5/ERA5_sfc',
+ opt_output_from_metgrid_path = '/glade/work/gduine/wrf/metgrid/nlcd2011_to_modis_ndown/111m_SST_v1/IOP10/2Doms/',
+ io_form_metgrid = 2, 
+/
