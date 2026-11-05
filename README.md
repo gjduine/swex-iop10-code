@@ -86,7 +86,7 @@ Derecho).
 ## Citation
 If you use this code, please cite the paper above and this archive:
 
-> Duine, G.-J. (2026). swex-iop10-code (Version v1.0) [Software]. Zenodo. https://doi.org/*[DOI]*
+> Duine, G.-J. (2026). swex-iop10-code (Version v1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23818749
 
 ## License
 
